@@ -12,7 +12,7 @@ def get_base64_image(path):
     return f"data:image/png;base64,{base64.b64encode(data).decode()}"
 
 # Available pets
-# guinea_pig_img = get_base64_image("guinea-pig.png")  # Uncomment if you have the image
+# guinea_pig_img = get_base64_image("guinea-pig (1).png")  # Uncomment if you have the image
 
 PET_OPTIONS = {
     # "Guinea Pig": f'<img src="{guinea_pig_img}" width="28"/>',  # Uncomment if you have the image
